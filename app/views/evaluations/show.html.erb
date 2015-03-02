@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Pointing:</strong>
+  <%= @evaluation.pointing %>
+</p>
+
+<p>
+  <strong>Good points:</strong>
+  <%= @evaluation.good_points %>
+</p>
+
+<p>
+  <strong>Bad points:</strong>
+  <%= @evaluation.bad_points %>
+</p>
+
+<p>
+  <strong>Would back:</strong>
+  <%= @evaluation.would_back %>
+</p>
+
+<%= link_to 'Edit', edit_evaluation_path(@evaluation) %> |
+<%= link_to 'Back', evaluations_path %>

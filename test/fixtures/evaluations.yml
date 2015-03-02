@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pointing: 1
+  good_points: MyText
+  bad_points: MyText
+  would_back: false
+
+two:
+  pointing: 1
+  good_points: MyText
+  bad_points: MyText
+  would_back: false
